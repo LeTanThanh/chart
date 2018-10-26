@@ -1,0 +1,16 @@
+.canvas-container {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+  width: 100%;
+}
+
+canvas {
+  border: 1px solid black;
+  margin: 0 auto;
+  display: block;
+}
